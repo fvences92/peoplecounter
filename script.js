@@ -1,37 +1,15 @@
-//document.getElementById("count").innerText = 5
-//let firstBatch = 5
-//let secondBatch = 7
-//let count = firstBatch + secondBatch
+//Creating a web appliaction using JS, CSS, HTML 
+//with an increment function per click 
 
-// 1. Create two variables, myAge and humanDogRatio
-// 2. Multiply the two together and store the result of myDogAge
-// 3. Log myDogAge to the console 
+//Initializing count at 0 
+let counting = document.getElementById("count")
+let count = 0
 
-// let myAge = 30
-// let humanDogRatio = 7
-// let myDogAge = humanDogRatio * myAge
-
-// console.log(myDogAge)
-
-// let count = 5
-// //count + 1
-
-// count = count + 1
-
-// console.log(count)
-
-// let bonusPoints = 50
-
-// bonusPoints = bonusPoints + 50
-// console.log(bonusPoints)
-
-// bonusPoints = bonusPoints - 75
-// console.log(bonusPoints)
-
-// bonusPoints = bonusPoints + 45
-// console.log(bonusPoints)
-
+//Increaseing total count +1 everytime it is clicked 
 function increment() {
-    
-    console.log("the button was clicked")
+    count = count + 1
+    //Updating the element in the HTML document 
+    counting.innerText = count 
+    //Log it
+    console.log(count)
 }
