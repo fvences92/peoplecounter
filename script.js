@@ -13,3 +13,7 @@ function increment() {
     //Log it
     console.log(count)
 }
+
+function save() {
+    console.log(count)
+}
